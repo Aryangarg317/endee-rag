@@ -1,0 +1,14 @@
+# Endee vector database
+endee>=0.1.0
+
+# Embeddings (local, no API key)
+sentence-transformers>=2.2.0
+
+# Config and CLI
+python-dotenv>=1.0.0
+
+# Optional: for RAG completion (set OPENAI_API_KEY to use)
+openai>=1.0.0
+
+# Utilities
+tqdm>=4.65.0
