@@ -189,6 +189,29 @@ endee-rag/
 
 ---
 
+## Push to GitHub
+
+The project is already committed locally. To push to your GitHub:
+
+1. **Create a new repository** on [GitHub](https://github.com/new):
+   - Name it e.g. `endee-rag` (or any name you like).
+   - Do **not** initialize with a README (this repo already has one).
+
+2. **Add your remote and push** (replace `YOUR_USERNAME` with your GitHub username):
+
+   ```bash
+   cd e:\endee_project
+   git remote add origin https://github.com/YOUR_USERNAME/endee-rag.git
+   git branch -M main
+   git push -u origin main
+   ```
+
+   If you use SSH: `git remote add origin git@github.com:YOUR_USERNAME/endee-rag.git` then push as above.
+
+3. **Share the repo link** (e.g. `https://github.com/YOUR_USERNAME/endee-rag`) as part of your application.
+
+---
+
 ## Submission
 
 Share the GitHub repository link as part of your application or evaluation process.
